@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F46xBA7hsI/UFMMyNsKZDj8X5AQK5HA55jjjIcZw00Il5uCljC2HJ0PuBKJJq0cKmXjfnnxUJD63O8IpapGemA==",
+  "dgSpecHash": "O2GYVA3UJqtUwUnNTOh6v9sN2YaNxA/cKfJrxhzjs906cUv7+ewerIqggB281hnF9WKUg3zhx70ZPRLcjM6XEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
+  "projectFilePath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nando\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\nando\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

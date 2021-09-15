@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj": {}
+    "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj": {
+    "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
+        "projectUniqueName": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
         "projectName": "RepositoryWithDapperAnd.NetCore",
-        "projectPath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
+        "projectPath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore.csproj",
         "packagesPath": "C:\\Users\\nando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\RepositoryWithDapperAnd.NetCore\\RepositoryWithDapperAnd.NetCore\\obj\\",
+        "outputPath": "C:\\Users\\nando\\OneDrive\\Documentos\\MeusProjetos\\Repository-with-Dapper-and-.Net-Core\\RepositoryWithDapperAnd.NetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

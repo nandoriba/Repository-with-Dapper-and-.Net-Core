@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace RepositoryWithDapperAnd.NetCore.Services
 {
-    public abstract class GenericDataBaseOperation
+    public static class GenericDataBaseOperation
     {        
-        internal virtual int RunSqlCommand<TEntity>(TEntity entitie, string queryVerb)
+        public static int RunSqlCommand<TEntity>(TEntity entitie, string queryVerb)
         {
             var count = 0;
 
@@ -30,7 +30,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 return count;
             }
         }
-        internal virtual Task<int> RunSqlCommandAsync<TEntity>(TEntity entidade, string verboDaQuery)
+        public static Task<int> RunSqlCommandAsync<TEntity>(TEntity entidade, string verboDaQuery)
         {
 
             using (var con = Connection.GetConnection())
@@ -51,7 +51,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual int RunSqlCommand<TEntity>(string queryVerb)
+        public static int RunSqlCommand<TEntity>(string queryVerb)
         {
             using (var con = Connection.GetConnection())
             {
@@ -71,7 +71,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual Task<int> RunSqlCommandAsync<TEntity>(string queryVerb)
+        public static Task<int> RunSqlCommandAsync<TEntity>(string queryVerb)
         {
             using (var con = Connection.GetConnection())
             {
@@ -91,7 +91,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual IEnumerable<TEntity> GetEntitysList<TEntity>(string queryVerbs)
+        public static IEnumerable<TEntity> GetEntitysList<TEntity>(string queryVerbs)
         {
 
             using (var con = Connection.GetConnection())
@@ -111,7 +111,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual Task<IEnumerable<TEntity>> GetEntitysListAsync<TEntity>(string queryVerb)
+        public static Task<IEnumerable<TEntity>> GetEntitysListAsync<TEntity>(string queryVerb)
         {
             ;
             using (var con = Connection.GetConnection())
@@ -131,7 +131,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual TEntity GetEntite<TEntity>(string queryVerb)
+        public static TEntity GetEntity<TEntity>(string queryVerb)
         {
             using (var con = Connection.GetConnection())
             {
@@ -154,7 +154,7 @@ namespace RepositoryWithDapperAnd.NetCore.Services
                 }
             }
         }
-        internal virtual Task<TEntity> GetEntityAsync<TEntity>(string queryVerb)
+        public static Task<TEntity> GetEntityAsync<TEntity>(string queryVerb)
         {
             using (var con = Connection.GetConnection())
             {
